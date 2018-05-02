@@ -7,9 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SigninComponent implements OnInit {
 
-  constructor() { }
+  usuario : string ;
+  contrasenia : string ;
 
-  ngOnInit() {
+  constructor() 
+  {  
+  }
+
+  signin()
+  {
+    console.log(this.usuario + this.contrasenia);
+  }
+
+  ngOnInit() 
+  {
   }
 
 }
